@@ -1,0 +1,29 @@
+# Editores
+app-editors/vscode-bin MS-vscode-EULA
+
+# Comunicação
+net-im/discord-bin all-rights-reserved
+
+# Media
+media-sound/spotify Spotify
+www-plugins/adobe-flash AdobeFlash-11.x
+
+# Jogos
+games-util/steam-launcher ValveSteamLicense
+
+### Auto:
+# required by sys-kernel/genkernel-4.0.2::gentoo[firmware]
+# required by sys-kernel/genkernel (argument)
+=sys-kernel/linux-firmware-20200122 linux-fw-redistributable no-source-code
+# required by media-fonts/corefonts (argument)
+>=media-fonts/corefonts-1-r7 MSttfEULA
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by x11-base/xorg-x11 (argument)
+>=media-fonts/font-bh-ttf-1.0.3-r1 bh-luxi
+# required by x11-base/xorg-x11-7.4-r3::gentoo[fonts]
+# required by x11-base/xorg-x11 (argument)
+>=media-fonts/font-bh-type1-1.0.3-r1 bh-luxi
+# required by www-client/google-chrome (argument)
+>=www-client/google-chrome-79.0.3945.130 google-chrome
+# required by kochi-substitute (argument)
+>=media-fonts/kochi-substitute-20030809-r3 free-noncomm

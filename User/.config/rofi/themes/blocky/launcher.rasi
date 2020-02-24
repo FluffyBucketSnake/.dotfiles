@@ -1,0 +1,63 @@
+@import "colorschemes/snazzy.rasi"
+
+* {
+	margin-default: 2px 0px;
+	margin-prompt: 0;
+	margin-entry: 0;
+	padding-default: 8px;
+	padding-prompt: 8px 16px 8px 8px;
+
+	background-color: @background;
+	text-color: @foreground;
+}
+
+window {
+	fullscreen: true;
+	transparency: true;
+	padding: 25%;
+}
+
+mainbox {
+	background-color: inherit;
+}
+
+inputbar {
+	children: [ prompt, textbox-sep, entry ];
+	background-color: @option;
+	spacing: 0;
+	margin: @margin-default;
+}
+
+prompt {
+	padding: @padding-prompt;
+	background-color: @accent-0;
+	margin: @margin-prompt;
+}
+
+textbox-sep {
+	expand: false;
+	padding: @padding-default;
+	str: "::";
+	content: @str;
+	background-color: @option;
+	text-color: @accent-0;
+}
+
+entry {
+	padding: @padding-default;
+	margin: @margin-entry;
+	background-color: @option;
+	text-color: @foreground-alt;
+}
+
+element {
+	padding: @padding-default;
+	margin: @margin-default;
+	background-color: @option;
+	text-color: @foreground-alt;
+}
+
+element selected {
+	background-color: @option-active;
+	text-color: @foreground;
+}

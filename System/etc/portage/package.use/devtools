@@ -1,0 +1,9 @@
+# Project managers
+dev-util/cmake -qt5
+
+# Code editors
+app-editors/vim terminal
+
+# Syntax checker
+dev-util/shellcheck doc hscolor
+app-text/xmlto -latex

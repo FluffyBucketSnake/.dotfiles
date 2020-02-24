@@ -1,0 +1,28 @@
+# Editores e terminais
+app-editors/vscodium-bin ~amd64
+app-editors/vscode-bin ~amd64
+x11-terms/kitty ~amd64
+
+# API e SDKs
+dev-dotnet/dotnetcore-sdk-bin ~amd64
+dev-dotnet/dotnetcore-sdk-bin-common ~amd64
+=dev-lang/mono-6.4.0.198 ~amd64
+=dev-dotnet/libgdiplus-6.0.2 ~amd64
+
+# Temas
+x11-themes/kvantum ~amd64
+x11-misc/lightdm-webkit-greeter ~amd64
+
+# Fontes
+dev-util/otf2bdf ~amd64
+
+# Comunicação
+net-im/discord-bin ~amd64
+
+# Media
+media-sound/spotify ~amd64
+
+# Jogos
+games-util/steam-launcher ~amd64
+games-util/xboxdrv ~amd64
+games-action/multimc5 ~amd64

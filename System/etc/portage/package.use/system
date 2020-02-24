@@ -1,0 +1,9 @@
+# Account Services
+sys-apps/accountsservices doc
+
+# Wifi Manager
+net-wireless/wpa_supplicant wps
+
+# Drivers
+media-libs/mesa dri3 gallium gles1 gles2 libglvnd osmesa vdpau vulkan xa xvmc egl
+sys-fs/android-file-transfer-linux fuse

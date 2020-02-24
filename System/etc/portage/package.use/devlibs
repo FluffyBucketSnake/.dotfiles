@@ -1,0 +1,29 @@
+# Interpreters and compilers
+net-libs/nodejs doc inspector nmp snapshot
+dev-lang/python -bluetooth
+sys-devel/llvm doc exegesis gold ncurses xar
+
+# Media format libraries
+media-libs/tiff -webp
+
+# Compression libraries
+app-arch/libarchive -lz4
+
+# Network libraries
+net-libs/webkit-gtk doc libnotify coverage
+
+# GUI libraries
+dev-qt/qtgui egl libinput
+dev-python/PyQt5 declarative designer help location multimedia network networkauth positioning printsupport webchannel webkit websockets widgets x11extra xmlpatterns
+dev-qt/qtwebengine designer jumbo-build system-ffmpeg system-icu widgets
+dev-qt/qtwebchannel qml
+
+# Media libraries
+media-libs/shaderc doc
+media-libs/tiff -webp
+media-libs/libvpx highbitddepth postproc svc
+
+# Game development libraries
+media-libs/libsdl2 gles haptic kms vulkan tslib
+media-libs/sdl2-mixer fluidsynth midi mod playtools wav
+media-libs/sdl2-gfx doc

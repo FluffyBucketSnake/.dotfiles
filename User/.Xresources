@@ -1,0 +1,11 @@
+#include ".Xresources.d/themes/snazzy"
+
+! Cursor
+Xcursor.theme: deepin
+
+! URxvt overrides
+URxvt*font: 			xft:Fira Code:pixelsize=12,xft:Font Awesome 5 Free:pixelsize=12,xft:lemon:pixelsize=12
+
+URxvt.perl-ext-common:		default,eval
+URxvt.keysym.Shift-Control-V:	eval:paste_clipboard
+URxvt.keysym.Shift-Control-C:	eval:selection_to_clipboard

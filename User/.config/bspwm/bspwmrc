@@ -1,0 +1,41 @@
+#! /bin/sh
+
+# Iniciar daemon de hotkeys.
+sxhkd &
+
+# Definir áreas de trabalho
+bspc monitor -d code games web office graphics chat music misc
+
+# Estilização de Janela
+bspc config border_width         2
+bspc config window_gap          12
+
+# Divisão de Janela
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# Regras de janelas
+bspc rule -a VSCodium desktop='^1' follow=on
+
+bspc rule -a Steam desktop='^2'
+bspc rule -a Steam:Friends desktop='^2' state=floating follow=off
+bspc rule -a hl2_linux desktop='^2' state=fullscreen
+bspc rule -a MultiMC5 desktop='^2' follow=on
+
+bspc rule -a Chromium-browser-chromium desktop='^3'
+
+bspc rule -a StarUML desktop='^4' follow=on
+
+bspc rule -a krita desktop='^5' follow=on
+bspc rule -a feh desktop='^5' follow=on
+
+bspc rule -a discord desktop='^6'
+
+# Carregar .Xresources com o CPP
+xrdb -merge .Xresources
+
+# Montar área de trabalho
+feh --bg-scale /home/fluffybucketsnake/Imagens/Papéis\ de\ Parede/wy8kgkgy4tx31.png
+/home/fluffybucketsnake/.config/polybar/launch.sh
+/home/fluffybucketsnake/.config/compton/launch.sh

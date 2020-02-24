@@ -1,0 +1,23 @@
+# Window server
+x11-base/xorg-server doc kdrive xephyr
+
+# Desktop Manager
+x11-misc/lightdm gtk non_root vala
+
+# Window Manager
+x11-wm/bspwm examples
+x11-misc/sxhkd examples
+
+# Terminal
+x11-terms/rxvt-unicode 256-color blink fading-colors gdk-pixbuf unicode3 xft
+
+# Shell
+app-shell/zsh doc examples
+
+# Web Browser
+www-client/chromium cups kerberus proprietary-codecs system-ffmpeg system-icu system-vpx
+# www-client/firefox screenshot l10n_pt-BR l10n_ja system-icu system-jpeg system-libevent system-webp
+
+# Misc.
+x11-misc/polybar mpd network ipc
+x11-misc/rofi windowmode
